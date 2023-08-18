@@ -1,0 +1,95 @@
+---
+import Nav from "../components/Nav.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Todd's Coffee Co.">
+  <main class="mx-12">
+    <Nav />
+    <hr class="mt-4" />
+    <section class="grid grid-cols-2">
+      <div class="bg-violet-400 grid content-center justify-items-center">
+        <h2
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+        >
+          Summer Menu Remix is Here
+        </h2>
+        <p class="font-semibold text-center max-w-md text-lg">
+          Say hello to cool twists on your iced favorites. Available for a
+          limited time in the Todd's Coffee app.
+        </p>
+        <button
+          class="mt-5 px-4 py-2 border-black border-2 rounded-full bg-transparent text-black font-semibold hover:bg-black hover:text-white"
+          >Explore the menu</button
+        >
+      </div>
+      <div>
+        <img src="/iced-drinks.jpeg" alt="iced coffee drinks" />
+      </div>
+    </section>
+
+    <section class="mt-8 grid grid-cols-2">
+      <div>
+        <img src="/refreshers.jpeg" alt="" />
+      </div>
+      <div class="bg-pink-400 grid content-center justify-items-center">
+        <h2
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+        >
+          Talk about refreshing
+        </h2>
+        <p class="font-semibold text-center max-w-md text-lg">
+          Introducing our vibrant new Frozen Lemonade Starbucks Refreshers®
+          beverages: Strawberry Açaí, Pineapple Passionfruit and Mango
+          Dragonfruit.
+        </p>
+        <button
+          class="mt-5 px-4 py-2 border-black border-2 rounded-full bg-transparent text-black font-semibold hover:bg-black hover:text-white"
+          >Order now</button
+        >
+      </div>
+    </section>
+
+    <section class="mt-8 grid grid-cols-2">
+      <div class="bg-yellow-300 grid content-center justify-items-center">
+        <h2
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+        >
+          Deliciously dreamy
+        </h2>
+        <p class="font-semibold text-center max-w-md text-lg">
+          Uplift your summer with a smooth Chocolate Cream Cold Brew topped with
+          silky, chocolaty cold foam.
+        </p>
+        <button
+          class="mt-5 px-4 py-2 border-black border-2 rounded-full bg-transparent text-black font-semibold hover:bg-black hover:text-white"
+          >Order now</button
+        >
+      </div>
+      <div>
+        <img src="/coldbrew.jpeg" alt="iced coffee drinks" />
+      </div>
+    </section>
+
+    <section class="my-8 grid grid-cols-2">
+      <div>
+        <img src="/breakfast.jpeg" alt="" />
+      </div>
+      <div class="bg-orange-400 grid content-center justify-items-center">
+        <h2
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+        >
+          Start hearty
+        </h2>
+        <p class="font-semibold text-center max-w-md text-lg">
+          Grab a filling favorite: the Impossible™ Breakfast Sandwich with an
+          Impossible Sausage Patty Made From Plants.*
+        </p>
+        <button
+          class="mt-5 px-4 py-2 border-black border-2 rounded-full bg-transparent text-black font-semibold hover:bg-black hover:text-white"
+          >Order now</button
+        >
+      </div>
+    </section>
+  </main>
+</Layout>
