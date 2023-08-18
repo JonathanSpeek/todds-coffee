@@ -4,13 +4,15 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Todd's Coffee Co.">
-  <main class="mx-12">
+  <main class="mx-auto max-w-7xl grid justify-center px-4 sm:px-8">
     <Nav />
     <hr class="mt-4" />
-    <section class="grid grid-cols-2">
-      <div class="bg-orange-100 grid content-center justify-items-center">
+    <section class="grid grid-cols-2 max-md:grid-cols-1">
+      <div
+        class="bg-orange-100 grid content-center justify-items-center p-4 max-md:row-end-3"
+      >
         <h2
-          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md max-md:text-3xl"
         >
           Cold brew for summer
         </h2>
@@ -24,19 +26,20 @@ import Layout from "../layouts/Layout.astro";
         >
       </div>
       <img
+        class="max-md:row-start-1"
         src="/coldbrew.webp"
         alt="cold brew coffee - Photo by tabitha turner on Unsplash"
       />
     </section>
 
-    <section class="mt-8 grid grid-cols-2">
+    <section class="mt-8 grid grid-cols-2 max-md:grid-cols-1">
       <img
         src="/chemex.webp"
         alt="chemex coffee brewing - Photo by Ben Moreland on Unsplash"
       />
-      <div class="bg-green-950 grid content-center justify-items-center">
+      <div class="bg-green-950 grid content-center justify-items-center p-4">
         <h2
-          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md text-white"
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md text-white max-md:text-3xl"
         >
           Enjoy the bloom
         </h2>
@@ -51,10 +54,12 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </section>
 
-    <section class="mt-8 grid grid-cols-2">
-      <div class="bg-stone-300 grid content-center justify-items-center">
+    <section class="mt-8 grid grid-cols-2 max-md:grid-cols-1">
+      <div
+        class="bg-stone-300 grid content-center justify-items-center p-4 max-md:row-end-3"
+      >
         <h2
-          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md"
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md max-md:text-3xl"
         >
           So much yum
         </h2>
@@ -68,19 +73,20 @@ import Layout from "../layouts/Layout.astro";
         >
       </div>
       <img
+        class="max-md:row-start-1"
         src="/pastries.webp"
         alt="pastries - Photo by Nathan Dumlao on Unsplash"
       />
     </section>
 
-    <section class="my-8 grid grid-cols-2">
+    <section class="my-8 grid grid-cols-2 max-md:grid-cols-1">
       <img
         src="/coffeeshop.webp"
         alt="chemex coffee brewing - Photo by Petr Sevcovic on Unsplash"
       />
-      <div class="bg-stone-950 grid content-center justify-items-center">
+      <div class="bg-stone-950 grid content-center justify-items-center p-4">
         <h2
-          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md text-white"
+          class="tracking-wide font-semibold text-5xl mb-5 text-center max-w-md text-white max-md:text-3xl"
         >
           Get together
         </h2>
